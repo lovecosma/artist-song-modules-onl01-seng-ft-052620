@@ -11,7 +11,7 @@ class Artist
 
 
 def self.all
-  Artist.all
+  @@artists
 end
 
   def initialize
