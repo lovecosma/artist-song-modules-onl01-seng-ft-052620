@@ -8,7 +8,7 @@ class Artist
   attr_reader :songs
 
 
-def self.class.all
+def self.all
   self.class.all
 end
 
