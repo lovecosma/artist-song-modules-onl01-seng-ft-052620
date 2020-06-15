@@ -5,7 +5,7 @@ class Song
   include Memorable::InstanceMethods
   include Paramable::InstanceMethods
   include Findable::InstanceMethods
-  @@songs
+  @@songs = []
   attr_accessor :name
   attr_reader :artist
 
