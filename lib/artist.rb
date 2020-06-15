@@ -9,7 +9,7 @@ class Artist
 
 
 def self.all
-  @@artists
+  self.class.all
 end
 
   def initialize
