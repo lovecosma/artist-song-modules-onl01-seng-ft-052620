@@ -5,7 +5,7 @@ module Memorable
     end
 
     def count
-      self.class.count
+      self.class.all.count
     end
   end
 
