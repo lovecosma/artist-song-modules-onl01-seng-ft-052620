@@ -4,15 +4,8 @@ class Artist
   extend Memorable::ClassMethods
   include Memorable::InstanceMethods
 
-  @@artists = []
-
   attr_accessor :name
   attr_reader :songs
-
-
-def self.all
-  @@artists
-end
 
   def initialize
     super
