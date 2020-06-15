@@ -10,7 +10,8 @@ class Artist
   attr_reader :songs
 
 def self.all
-end 
+  @@artists
+end
 
 
   def initialize
